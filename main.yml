@@ -1,5 +1,5 @@
 - name: Configure {{SERVER}} Server
-  hosts: lcalhost
+  hosts: localhost
   connection: local
   vars_files:
   - "variables-{{ENVIRONMENT}}.yml"
